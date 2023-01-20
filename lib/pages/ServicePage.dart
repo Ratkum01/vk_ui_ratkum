@@ -69,47 +69,113 @@ class ServicePage extends StatelessWidget {
                 _dlyaVasMet(),
                 _sprositeMarMet(),
                 _zimnieStikMet(),
-                Padding(
-                  padding: const EdgeInsets.only(top: 10),
-                  child: Container(
-                    height: 250,
-                    decoration: BoxDecoration(
-                        color: primaryColor,
-                        borderRadius: BorderRadius.circular(15)),
-                    child: Column(children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(top: 10, left: 15),
-                            child: Text(
-                              'Cпорт',
-                              style:
-                                  TextStyle(color: primaryGrey2, fontSize: 15),
-                            ),
-                          ),
-                          IconButton(
-                              onPressed: () {},
-                              icon: Icon(
-                                Icons.more_vert_sharp,
-                                color: primaryGrey2,
-                              ))
-                        ],
-                      ),
-                      Row(
-                        children: [
-                          
-                        ],
-                      )
-                    ]),
-                  ),
-                )
+                _sportMet()
               ],
             ),
           ),
         ],
       ),
     );
+  }
+
+  Padding _sportMet() {
+    return Padding(
+                padding: const EdgeInsets.only(top: 10),
+                child: Container(
+                  height: 250,
+                  decoration: BoxDecoration(
+                      color: primaryColor,
+                      borderRadius: BorderRadius.circular(15)),
+                  child: Column(children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.only(top: 10, left: 15),
+                          child: Text(
+                            'Cпорт',
+                            style:
+                                TextStyle(color: primaryGrey2, fontSize: 15),
+                          ),
+                        ),
+                        IconButton(
+                            onPressed: () {},
+                            icon: Icon(
+                              Icons.more_vert_sharp,
+                              color: primaryGrey2,
+                            ))
+                      ],
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 5, bottom: 5),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          Container(
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(color: Colors.white,
+                                borderRadius: BorderRadius.circular(20),
+                                image: DecorationImage(
+                                  fit: BoxFit.fill,
+                                    image: AssetImage(
+                                      
+                                        'assets/images/serviceImages/mc.png'))),
+                          ),
+                          Text('MC', style: TextStyle(color: Colors.white),),
+                          Text('Завтра 02:00',style: TextStyle(color: primaryGrey2),),
+                          Text('MU', style: TextStyle(color: Colors.white),),
+                           Container(
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(color: Colors.white,
+                                borderRadius: BorderRadius.circular(20),
+                                image: DecorationImage(
+                                  fit: BoxFit.fill,
+                                    image: AssetImage(
+                                      
+                                        'assets/images/serviceImages/my.png'))),
+                          ),
+                        ],
+                      ),
+                    ),
+                    SizedBox(height: 20,),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 5, bottom: 5),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          Container(
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(color: Colors.white,
+                                borderRadius: BorderRadius.circular(20),
+                                image: DecorationImage(
+                                  fit: BoxFit.fill,
+                                    image: AssetImage(
+                                      
+                                        'assets/images/serviceImages/bc.png'))),
+                          ),
+                          Text('BC', style: TextStyle(color: Colors.white),),
+                          Text('Завтра 02:00',style: TextStyle(color: primaryGrey2),),
+                          Text('RM', style: TextStyle(color: Colors.white),),
+                           Container(
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(color: Colors.white,
+                                borderRadius: BorderRadius.circular(20),
+                                image: DecorationImage(
+                                  fit: BoxFit.fill,
+                                    image: AssetImage(
+                                      
+                                        'assets/images/serviceImages/rm.png'))),
+                          ),
+                        ],
+                      ),
+                    )
+                  ]),
+                ),
+              );
   }
 
   Padding _zimnieStikMet() {
@@ -458,16 +524,16 @@ class ServicePage extends StatelessWidget {
                 height: 50,
                 width: 50,
                 decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 26, 58, 84),
+                    color: Color.fromARGB(255, 4, 47, 81),
                     borderRadius: BorderRadius.circular(10)),
                 child: Icon(
-                  Icons.directions_run_sharp,
-                  color: Colors.blue,
+                  Icons.shopping_bag_outlined,
+                  color: Color.fromARGB(255, 5, 98, 174),
                   size: 35,
                 ),
               ),
               Text(
-                'Шаги',
+                'Маркет',
                 style: TextStyle(color: Colors.white),
               ),
               SizedBox(
