@@ -86,6 +86,9 @@ class GlavPage extends StatelessWidget {
                                     height: 40,
                                     width: 40,
                                     decoration: BoxDecoration(
+                                      image: DecorationImage(
+                                        fit: BoxFit.cover,
+                                        image: AssetImage('assets/images/ratkum.jpeg')),
                                         color: Colors.purple,
                                         shape: BoxShape.circle),
                                   ),
