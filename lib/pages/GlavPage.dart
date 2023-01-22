@@ -36,21 +36,7 @@ class GlavPage extends StatelessWidget {
     'assets/images/logo5.jpg',
   ];
 
-  final List namePubl = ['ФАКты', 'MEM', 'PC City', 'IMDeV', 'Code'];
-  final List textPubl = [
-    'Очень интересно',
-    'УГАРРРРР ХАААААААААА',
-    'Мощьно ???',
-    'Жиза',
-    'LIKE PLS'
-  ];
-  final List photoPubl = [
-    'assets/images/post.jpg',
-    'assets/images/post2.jpg',
-    'assets/images/post3.jpg',
-    'assets/images/post4.jpg',
-    'assets/images/post5.jpg',
-  ];
+
 
   @override
   Widget build(BuildContext context) {
@@ -58,10 +44,8 @@ class GlavPage extends StatelessWidget {
       length: 3,
       child: Scaffold(
         backgroundColor: backColor,
-       
         body: Column(
           children: [
-            
             Expanded(
               child: ListView(
                 scrollDirection: Axis.vertical,
@@ -86,9 +70,10 @@ class GlavPage extends StatelessWidget {
                                     height: 40,
                                     width: 40,
                                     decoration: BoxDecoration(
-                                      image: DecorationImage(
-                                        fit: BoxFit.cover,
-                                        image: AssetImage('assets/images/ratkum.jpeg')),
+                                        image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: AssetImage(
+                                                'assets/images/ratkum.jpeg')),
                                         color: Colors.purple,
                                         shape: BoxShape.circle),
                                   ),
@@ -176,7 +161,7 @@ class GlavPage extends StatelessWidget {
                                       storisText: storisText[index])
                                 ],
                               ))),
-                 
+
                   //post
                   //надо сократить код
 
@@ -188,14 +173,14 @@ class GlavPage extends StatelessWidget {
                   ),
                   PostGlavPage(
                     logoPub: 'assets/images/logo2.jpg',
-                    namePub: 'ФАКты',
-                    textpub: 'Очень интересно',
-                    photoPub: 'assets/images/post2.jpg',
+                    namePub: 'IT',
+                    textpub: 'ЧЕ ?',
+                    photoPub: 'assets/images/post4.jpg',
                   ),
                   PostGlavPage(
                     logoPub: 'assets/images/logo3.jpg',
-                    namePub: 'ФАКты',
-                    textpub: 'Очень интересно',
+                    namePub: 'PC',
+                    textpub: 'Имба',
                     photoPub: 'assets/images/post3.jpg',
                   ),
                 ],

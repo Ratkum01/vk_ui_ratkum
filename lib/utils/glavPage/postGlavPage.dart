@@ -16,6 +16,7 @@ class PostGlavPage extends StatelessWidget {
 
   final String textpub;
   final String photoPub;
+  
 
   @override
   Widget build(BuildContext context) {
@@ -103,7 +104,7 @@ class PostGlavPage extends StatelessWidget {
                             borderRadius: BorderRadius.circular(15)),
                         child: Icon(
                           Icons.favorite_border,
-                          color: primaryGrey2,
+                          color: primaryGrey2, 
                           size: 25,
                         ),
                       ),
