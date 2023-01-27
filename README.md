@@ -1,16 +1,8 @@
 # vk_ui_ratkum
 
-A new Flutter project.
+![Gif 1](https://github.com/Ratkum01/vk_ui_ratkum/blob/main/assets/gif/vk1.gif?raw=true)
+![Gif 1](https://github.com/Ratkum01/vk_ui_ratkum/blob/main/assets/gif/vk2.gif?raw=true)
+![Gif 1](https://github.com/Ratkum01/vk_ui_ratkum/blob/main/assets/gif/vk3.gif?raw=true)
+![Gif 1](https://github.com/Ratkum01/vk_ui_ratkum/blob/main/assets/gif/vk4.gif?raw=true)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
