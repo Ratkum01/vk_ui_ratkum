@@ -5,4 +5,3 @@
 ![Gif 3](https://github.com/Ratkum01/vk_ui_ratkum/blob/main/assets/gif/vk3.gif?raw=true)
 ![Gif 4](https://github.com/Ratkum01/vk_ui_ratkum/blob/main/assets/gif/vk4.gif?raw=true)
 
-
